@@ -38,14 +38,15 @@ none: 안보이게 하기
 .rt-cont > .navis > .navi:hover {background-color: #ccc;}
 .rt-cont > .navis > .navi-def:hover {background-color: #ccc; color: #000;}
 .rt-cont .bar {height: 6px; background-color: #ccc; margin: 16px 0;}
-/*
 
 
-.rt-cont > .navis > li {padding: 8px 16px; display: inline; }
-.rt-cont > .navis > li:first-child {padding: 8px 16px 8px 0;}
-.rt-cont > .navis > .navi {background-color: #fff; cursor: pointer;}
-.rt-cont > .navis > .navi-def {background-color: #000; color: #fff; cursor: pointer;}
-.rt-cont > .navis > .navi:hover {background-color: #ccc;}
-.rt-cont > .navis > .navi-def:hover {background-color: #ccc; color: #000;}
-.rt-cont > .navis .fas {margin-right: 12px;}
-*/
+/* 사진 */
+.pics {margin-top:40px;}
+.pics > .pic {width: 32.5%; float: left; margin-bottom: 48px;}
+.pics > .pic-middle {margin: 0 1.25%;}
+.pics .pic-tit {padding: 16px 0; font-weight: bold;}
+.pics .pic-cont {color: #333;}
+.pager { width: 242px; margin: 0 auto;}
+.pager > li {float: left; width: 40px; height: 40px; text-align: center; line-height: 38px; cursor: pointer;}
+.pager > li:hover {background-color: #111; color: #f8f8f8;}
+.pager .active {background-color: #111; color: #f8f8f8;}
