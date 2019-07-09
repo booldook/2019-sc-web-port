@@ -1,10 +1,12 @@
 /* 공통사항 */
-html, body {height: 100%; color: #000;}
+html, body {height: 100%; color: #111;}
 .wrap {width: 100%; height: 100%; max-width: 1800px; margin: 0 auto;}
 .lt-navi {float: left;
 	width: 300px; height: 100%; position: fixed;}
-.rt-cont {float: right; background-color: #ccc; padding: 16px; 
+.rt-cont {float: right; background-color: #eee; padding: 20px; 
 	width: calc(100% - 300px); height: 5000px;}
+
+/* .bar {height: 5px; background-color: #bbb; margin: 20px 0;} */
 
 /* lt-navi */
 .lt-navi > .avatar {width: 40%; margin: 20px;}
@@ -16,3 +18,34 @@ html, body {height: 100%; color: #000;}
 .lt-navi > .navi:hover {background-color: #ccc;}
 .lt-navi > .navi .fas {margin-right: 20px;}
 .lt-navi > .brands {padding: 20px;}
+
+/* rt-cont */
+/*
+display : block, inline, inlin-block, none
+block이 기본값: div, p, ul, li, h1, h2...h6 ...
+inline이 기본값: span, i, b... 
+inline-block: img
+none: 안보이게 하기
+*/
+
+.rt-cont > h1 {padding: 16px 0;}
+.rt-cont > .navis {margin-top: 16px;}
+.rt-cont > .navis > li {padding: 8px 16px; display: inline-block;}
+.rt-cont > .navis > li:first-child {padding-left: 0;}
+.rt-cont > .navis > .navi {background-color: #fff; cursor: pointer;}
+.rt-cont > .navis > .navi-def {background-color: #111; color: #fff; 
+	cursor: pointer;}
+.rt-cont > .navis > .navi:hover {background-color: #ccc;}
+.rt-cont > .navis > .navi-def:hover {background-color: #ccc; color: #000;}
+.rt-cont .bar {height: 6px; background-color: #ccc; margin: 16px 0;}
+/*
+
+
+.rt-cont > .navis > li {padding: 8px 16px; display: inline; }
+.rt-cont > .navis > li:first-child {padding: 8px 16px 8px 0;}
+.rt-cont > .navis > .navi {background-color: #fff; cursor: pointer;}
+.rt-cont > .navis > .navi-def {background-color: #000; color: #fff; cursor: pointer;}
+.rt-cont > .navis > .navi:hover {background-color: #ccc;}
+.rt-cont > .navis > .navi-def:hover {background-color: #ccc; color: #000;}
+.rt-cont > .navis .fas {margin-right: 12px;}
+*/
