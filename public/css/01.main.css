@@ -91,3 +91,16 @@ display: flex; align-items: center; justify-content: center;}
 .charge .price > span {font-size: 2rem;}
 .charge .bt-signup {padding: 1rem 1.5rem; background-color: #009688; color: #fff; font-size: 1.125rem; cursor: pointer;}
 .charge .bt-signup:hover {background-color: #111;}
+
+/* contacts */
+.contacts {margin-top: 3rem; padding: 1.5rem; 
+	background-color: #aaa;
+	background-image: linear-gradient(#aaa, #ccc);}
+.contacts > h3 {margin-bottom: 3rem;}
+.contacts > .infos {display: flex;}
+.contacts > .infos > li {flex: 33% 1 1; background-color: #777; 
+	padding: 1rem; color: #fff; text-align: center;}
+.contacts > .infos .fas {font-size: 2rem;}
+
+
+
