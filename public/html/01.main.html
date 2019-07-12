@@ -34,7 +34,7 @@
 		<!-- lt-navi 끝 -->
 		</ul>
 		<!-- rt-cont -->
-		<ul class="rt-cont">
+		<div class="rt-cont">
 			<div style="padding: 1.5rem;">
 				<h1>My Portfolio</h1>
 				<!-- navis -->
@@ -234,18 +234,18 @@
 					<ul class="contact">
 						<li>
 							<label for="contact-name">Name</label>
-							<input type="text" name="name" id="contact-name">
+							<input type="text" name="name" id="contact-name" class="ins">
 						</li>
 						<li>
 							<label for="contact-email">Email</label>
-							<input type="text" name="email" id="contact-email">
+							<input type="text" name="email" id="contact-email" class="ins">
 						</li>
 						<li>
 							<label for="contact-msg">Name</label>
-							<input type="text" name="msg" id="contact-msg">
+							<input type="text" name="msg" id="contact-msg" class="ins">
 						</li>
 						<li class="bts">
-							<button type="button">
+							<button type="button" id="bt-send-msg">
 								<i class="fas fa-paper-plane"></i>
 								Send Message
 							</button>
@@ -253,7 +253,58 @@
 					</ul>
 				</form>
 			</div>
-		</ul><!-- rt-cont 끝 -->
+			<ul class="footers clear">
+				<li class="footer">
+					<h3>FOOTER</h3>
+					<p>
+						Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+					</p>
+					<p class="copyright">Powered by w3.css</p>
+				</li>
+				<li class="blog">
+					<h3>BLOG POSTS</h3>
+					<ul class="posts">
+						<li class="post clear">
+							<div class="pic">
+								<img src="../img/workshop.jpg" alt="워크샵" class="img">
+							</div>
+							<div class="cont">
+								<h5>Lorem</h5>
+								<p>Sed mattis nunc</p>
+							</div>
+						</li>
+						<li class="post clear">
+							<div class="pic">
+								<img src="../img/gondol.jpg" alt="워크샵" class="img">
+							</div>
+							<div class="cont">
+								<h5>Ipsum</h5>
+								<p>Praes tinci sed</p>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li class="tags">
+					<h3>POPULAR TAGS</h3>
+					<ul class="tag-list">
+						<li class="tag">Travel</li> 
+						<li class="tag">New York</li> 
+						<li class="tag">Dinner</li> 
+						<li class="tag">Salmon</li> 
+						<li class="tag">France</li> 
+						<li class="tag">Drinks</li> 
+						<li class="tag">Ideas</li> 
+						<li class="tag">Flavors</li> 
+						<li class="tag">Cuisine</li> 
+						<li class="tag">Chicken</li> 
+						<li class="tag">Dressing</li> 
+						<li class="tag">Fried</li> 
+						<li class="tag">Fish</li> 
+						<li class="tag">Duck</li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- rt-cont 끝 -->
 	</div><!-- wrap 끝 -->
 </body>
 
