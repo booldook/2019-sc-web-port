@@ -111,19 +111,20 @@ display: flex; align-items: center; justify-content: center;}
 
 
 /* footer */
-.footers {margin: 80px 0;}
-.footers > li {width: 32%; float: left; padding: 8px;}
-.footers > li:nth-child(2) {margin: 0 2%;}
+.footers {padding: 2rem 1.5rem; background-color: #888; 
+	color: #f8f8f8; display: flex; justify-content: space-between;}
+.footers > li {flex: 32% 0 1; padding: 8px;}
 .footers h3 {font-size: 24px; padding: 12px 0;}
 .footers .copyright {padding: 12px 0;}
 .posts > :not(:last-child) {border-bottom: 1px solid #ccc;}
-.blog .post {padding: 12px 8px 8px 8px; cursor: pointer;}
+.blog .post {padding: 12px 8px 8px 8px; cursor: pointer; 
+	display: flex; justify-content: space-between;}
 .blog .post:hover {background-color: #ccc;}
-.blog .pic {width: 15%; float: left;}
-.blog .cont {width: 80%; float: right;}
+.blog .pic {flex: 15% 0 1;}
+.blog .cont {flex: 80% 0 1;}
 .post h5 {font-size: 18px;}
-.tag {display: inline-block; background-color: #ccc; 
-	padding: 4px 6px; margin: 0 8px 8px 0;}
+.tag {display: inline-block; background-color: #999; color: #000; 
+	padding: 2px 4px; margin: 0 8px 8px 0; font-size: 0.75rem;}
 .tag-list > :first-child {background-color: #111; color: #f8f8f8; font-size: 18px;}
 
 
