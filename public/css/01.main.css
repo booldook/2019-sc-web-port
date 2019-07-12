@@ -3,7 +3,7 @@ html, body {height: 100%; color: #111;}
 .wrap {width: 100%; height: 100%; max-width: 1800px; margin: 0 auto;}
 .lt-navi {float: left;
 	width: 300px; height: 100%; position: fixed;}
-.rt-cont {float: right; background-color: #eee; padding: 20px; 
+.rt-cont {float: right; background-color: #eee;
 	width: calc(100% - 300px); height: 5000px;}
 
 /* .bar {height: 5px; background-color: #bbb; margin: 20px 0;} */
@@ -28,15 +28,15 @@ inline-block: img
 none: 안보이게 하기
 */
 
-.rt-cont > h1 {padding: 16px 0;}
-.rt-cont > .navis {margin-top: 16px;}
-.rt-cont > .navis > li {padding: 8px 16px; display: inline-block;}
-.rt-cont > .navis > li:first-child {padding-left: 0;}
-.rt-cont > .navis > .navi {background-color: #fff; cursor: pointer;}
-.rt-cont > .navis > .navi-def {background-color: #111; color: #fff; 
+.rt-cont > div > h1 {padding: 16px 0;}
+.navis {margin-top: 16px;}
+.navis > li {padding: 8px 16px; display: inline-block;}
+.navis > li:first-child {padding-left: 0;}
+.navis > .navi {background-color: #fff; cursor: pointer;}
+.navis > .navi-def {background-color: #111; color: #fff; 
 	cursor: pointer;}
-.rt-cont > .navis > .navi:hover {background-color: #ccc;}
-.rt-cont > .navis > .navi-def:hover {background-color: #ccc; color: #000;}
+.navis > .navi:hover {background-color: #ccc;}
+.navis > .navi-def:hover {background-color: #ccc; color: #000;}
 .rt-cont .bar {height: 6px; background-color: #ccc; margin: 16px 0;}
 
 
@@ -97,9 +97,10 @@ display: flex; align-items: center; justify-content: center;}
 	background-color: #aaa;
 	background-image: linear-gradient(#aaa, #ccc);}
 .contacts > h3 {margin-bottom: 3rem;}
-.contacts > .infos {display: flex;}
+.contacts > .infos {display: flex; font-size: 0.875rem; line-height: 2rem;}
 .contacts > .infos > li {flex: 33% 1 1; background-color: #777; 
-	padding: 1rem; color: #fff; text-align: center;}
+	padding: 1.25rem; color: #fff; text-align: center;}
+.contacts > .infos > li:nth-child(2) {background-color: #009688;}
 .contacts > .infos .fas {font-size: 2rem;}
 
 
