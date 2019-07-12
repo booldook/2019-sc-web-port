@@ -52,3 +52,26 @@ none: 안보이게 하기
 display: flex; align-items: center; justify-content: center;}
 .pager > li:hover {background-color: #111; color: #f8f8f8;}
 .pager .active {background-color: #111; color: #f8f8f8;}
+
+/* my-photo */
+.my-photo {display: flex; justify-content: space-between; margin-top: 5rem;}
+.my-photo > li {flex: 49.5% 0 1;}
+
+/* about */
+.about {margin-top: 3rem;}
+.about > h3 {font-weight: bold; font-size: 1.5rem;}
+.about > p {color: #333; margin-top: 1rem;}
+
+/* skills */
+.skills {margin-top: 3rem;}
+.skills > h4 {font-size: 1.25rem;}
+.skills > .skill {margin-top: 1rem;}
+.skills .skill-tit {margin: 1rem 0 0.75rem 0;}
+.skills .skill-bar {background-color: #bbb;}
+.skills .graph {background-color: #666; text-align: center; padding: 0.5rem 0; color: #fff;}
+.skill > li:nth-child(1) .graph {width: 95%;}
+.skill > li:nth-child(2) .graph {width: 85%;}
+.skill > li:nth-child(3) .graph {width: 80%;}
+.bt-download {margin-top: 2rem; padding: 0.75rem 1.25rem; cursor: pointer;
+	background-color: #666; color: #fff; display: inline-block;}
+.bt-download:hover {background-color: #ccc; color: #111;}	
