@@ -111,3 +111,10 @@ img {
 	border: 1px solid #333; 
 	color: #111;}
 .bt-hover:hover {opacity: 0.8;}
+
+
+/* hover 효과 */
+.opa {opacity: 1;}
+.opa:hover {opacity: 0.8;}
+.opa-rev {opacity: 0.8;}
+.opa-rev:hover {opacity: 1;}
